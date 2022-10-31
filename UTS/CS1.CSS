@@ -1,0 +1,128 @@
+body{
+	background-image:url("https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+	margin:auto;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: 'Poppins', sans-serif;
+}
+.wav{
+	 -webkit-transition: all 0.1s ease-in-out;
+	 -moz-transition: all 0.1s ease-in-out;
+	 -o-transition: all 0.1s ease-in-out ;
+	transition: all 0.1s ease-in-out ;
+}
+.wav:hover{
+	margin-top: -30px;
+}
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		 
+header{
+	text-align: center;
+	color: #232323;
+} 
+header .judul{
+	font-size: 17pt;
+	font-style: bold;
+	color: rgb(255, 255, 255);
+}
+header .deskripsi{
+	color :rgb(255, 255, 255);
+	font-size: 11pt;
+} 
+.wrap {
+	width: 950px;
+	margin:25px auto;
+}
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	
+	padding:0;
+	width: 650px;
+	margin:auto;
+	background: #050000;
+	
+}
+nav.menu ul li {
+	margin:0;
+	float:left;
+}
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	
+}
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:#40b114;
+}
+.blog {	
+	margin:auto;
+}
+.post {
+	text-align: right;
+}
+.jaw {
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	
+}
+.jaw img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+.jaw .jawa:hover {
+	margin-left:10px;
+}
+.gif {
+    position:fixed;
+    bottom:0px;
+    width: 340px;
+    height:160px;
+    left:10px;
+}
+.gif2 {
+    position:fixed;
+    bottom:0px;
+    width:335px;
+    height:160px;
+    right:10px;
+}
+.gif3 {
+    position: fixed;
+	margin:0 585px 0 0;
+    bottom:0px;
+    width:330px;
+    height:160px;
+    right:100px;
+}
+.gif4 {
+    position: fixed;
+	margin:0 250px 0 0;
+    bottom:0px;
+    width:330px;
+    height:160px;
+    right:100px;
+}
+.Masuk{
+	background-image:url(https://media.giphy.com/media/Z98jAZ5HA9ONTJYlVm/giphy.gif);
+	margin: 0 0 200px 0;
+	width: 1000px;
+	height:1000px;
+}
+footer{
+	text-align: center;
+}
