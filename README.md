@@ -1,2 +1,2 @@
 # Ryan2
-UTS Pemrograman Web
+UTS/UAS Pemrograman Web
